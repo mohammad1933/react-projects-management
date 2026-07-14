@@ -7,7 +7,7 @@ import { FaTrash } from "react-icons/fa";
 import { FaPencil } from "react-icons/fa6";
 import { getRemainingTime } from "../helpers/Helpers";
 import EditProjectModal from "../components/EditProjectModal";
-import ConfirmDeleteModel from "../components/confirmDeleteModel";
+import ConfirmDeleteModel from "../components/ConfirmDeleteModel";
 import { useAuth } from "../context/AuthContext";
 
 export default function Projects() {
